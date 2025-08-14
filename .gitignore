@@ -1,0 +1,31 @@
+# Node / front-end comunes
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Entornos / secretos
+.env
+.env.*
+*.pem
+*.key
+
+# SQLite (no subas la DB binaria, sí el esquema)
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sqlite-shm
+*.sqlite-wal
+
+# Otros
+*.tmp
+*.swp
